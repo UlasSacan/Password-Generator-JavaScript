@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Merriweather&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "dorsis",sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.box{
+    background-color: rgb(33, 71, 107);
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    padding: 5rem 0rem;
+}
+
+
+.no{
+    display: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#copy-password{
+    background-color: transparent;
+    height: 50px;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#Password{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+#generate{
+    background-color: rgb(197, 155, 38);
+    padding: .5rem;
+    width: 20rem;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
